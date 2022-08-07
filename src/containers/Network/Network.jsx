@@ -5,8 +5,8 @@ import './index.css'
 function Network() {
 
     return (
-        <div className="network">
-            <HiUsers className="image"/>
+        <div>
+            <HiUsers className="imageNetwork"/>
             <h1>¡Pronto encontrarás tus conecciones aquí!</h1>
         </div>
     );

@@ -1,12 +1,12 @@
 import React, {useEffect, useState} from 'react';
+import { IoBriefcase } from "react-icons/io5";
+import './index.css'
 
 function Jobs() {
-    useEffect(() => {
-        console.log('jobs')
-    }, []);
     return (
         <div>
-            <h1>Habemus Jobs</h1>
+            <IoBriefcase className="imageJobs"/>
+            <h1>¡Pronto podrás descubir empleos aquí!</h1>
         </div>
     );
 }

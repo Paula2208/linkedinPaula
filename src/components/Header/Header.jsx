@@ -18,6 +18,12 @@ function Header() {
     const [showProducts, setShowProducts] = useState(false);
     const [showPublic, setShowPublic] = useState(false);
 
+    useEffect(() => {
+        if(tabActive === 1){
+            navigate('./feed')
+        }
+    } ,[])
+
     const navigate = useNavigate();
 
     const changeTab = (number) => {
@@ -26,26 +32,24 @@ function Header() {
         let active = '';
 
         if(number === 1){
-            active = 'feed';
+            navigate('./feed')
         }
 
         if(number === 2){
-            active = 'mynetwork';
+            navigate('./mynetwork');
         }
 
         if(number === 3){
-            active = 'jobs';
+            navigate('./jobs');
         }
 
         if(number === 4){
-            active = 'messagging';
+            navigate('./messaging');
         }
 
         if(number === 5){
-            active = 'notifications';
+            navigate('./notifications');
         }
-
-        (active !== '') && (navigate(`./${active}`));
     }
 
     return (
