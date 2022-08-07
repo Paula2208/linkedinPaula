@@ -10,10 +10,10 @@ import {MdArrowDropDown} from "react-icons/md";
 import {CgMenuGridR} from "react-icons/cg";
 import {BiBullseye} from "react-icons/bi";
 
-function Header() {
+function Header(props) {
 
     const [tabActive, setTabActive] = useState(1);
-    const [user, setUser] = useState(undefined);
+    const [user, setUser] = useState(props.user);
     const [showMe, setShowMe] = useState(false);
     const [showProducts, setShowProducts] = useState(false);
     const [showPublic, setShowPublic] = useState(false);
@@ -105,7 +105,7 @@ function Header() {
                 <div className={`icon ${(tabActive === 6) && 'active'} div6`}
                     onClick={() => setShowMe(true)}
                 >
-                    <img src={'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png'}
+                    <img src={user.avatar ||'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png'}
                          className="round-avatar avatar"></img>
                     <div className="arrow">
                         <span>Me</span>

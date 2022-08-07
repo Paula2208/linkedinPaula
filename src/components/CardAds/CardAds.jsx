@@ -5,7 +5,7 @@ function CardAds() {
 
     return (
         <div className="cardAds">
-            <h1>Ads</h1>
+            <img src={'https://media.licdn.com/media/AAYQAgTPAAgAAQAAAAAAADVuOvKzTF-3RD6j-qFPqhubBQ.png'}></img>
         </div>
     );
 }

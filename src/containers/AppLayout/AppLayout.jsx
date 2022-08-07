@@ -3,11 +3,11 @@ import React, {useEffect, useState} from 'react';
 import Header from '../../components/Header/Header';
 import './index.css'
 
-function AppLayout() {
+function AppLayout(props) {
 
     return (
         <div className="App-header">
-            <Header />
+            <Header user={props.user}/>
             <Outlet/>
         </div>
     );

@@ -4,11 +4,11 @@ import CardCreatePost from '../CardCreatePost/CardCreatePost'
 import SortPosts from '../SortPosts/SortPosts'
 import ListPost from '../Posts/ListPost'
 
-function CenterFeed() {
+function CenterFeed(props) {
 
     return (
         <div className="whiteC">
-            <CardCreatePost />
+            <CardCreatePost user={props.user}/>
             <SortPosts />
             <ListPost />
         </div>

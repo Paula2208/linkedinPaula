@@ -12,6 +12,18 @@ import AppLayout from '../containers/AppLayout/AppLayout'
 function Navigator() {
     const [userLogged, setUserLogged] = useState(true);
 
+    const mockupUser = {
+        username: 'vfernandez',
+        name: 'Rodolfo Fernandez Quintero',
+        bio: 'Ganador del IX Festival de la Canción | Músico Profesional | Grupo Los Atómicos',
+        connections: 13,
+        pending: 2,
+        avatar: 'https://cdn.pixabay.com/photo/2014/01/24/10/40/singer-250933__340.jpg',
+        cover: 'https://cdn.pixabay.com/photo/2015/03/30/12/29/skulls-698436__340.jpg'
+    };
+
+    const [user, setUser] = useState(mockupUser);
+
     if(!userLogged){
         return (
             <Routes>
@@ -24,8 +36,8 @@ function Navigator() {
 
     return (
         <Routes>
-            <Route path="/" element={<AppLayout />}>
-                <Route path="/feed" element={<Feed />}/>
+            <Route path="/" element={<AppLayout user={user}/>}>
+                <Route path="/feed" element={<Feed user={user}/>}/>
                 <Route path="/mynetwork" element={<Network />}/>
                 <Route path="/jobs" element={<Jobs />}/>
                 <Route path="/messaging" element={<Messaging />}/>

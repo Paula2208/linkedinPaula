@@ -9,7 +9,6 @@ function RigthFeedCard() {
     return (
         <div className="whiteR">
             <CardConnections />
-            <CardCourses />
             <CardAds />
         </div>
     );

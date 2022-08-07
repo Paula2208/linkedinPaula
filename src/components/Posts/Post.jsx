@@ -64,11 +64,11 @@ function Post(props) {
                 </div>
                 
                 <div className="infoReactions">
-                    <div>
+                    <div className="totalComments">
                         {props.post.totalComments} comments
                     </div>
                     <BsDot />
-                    <div>
+                    <div className="totalComments">
                         {props.post.totalShares} shares
                     </div>
                 </div>

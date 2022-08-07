@@ -32,6 +32,7 @@
 .bio{
     margin-top: 3px;
     font-size:14px;
+    font-weight: 200;
 }
 
 .name{
@@ -48,6 +49,7 @@
     font-size:14px;
     align-items: center;
     align-content: center;
+    font-weight: 200;
 }
 
 .avatarPost{
@@ -58,6 +60,7 @@
 
 .dots{
     margin-right: 10px;
+    cursor:pointer;
 }
 
 
@@ -120,12 +123,18 @@
     font-size: 14px;
     text-align: justify;
     align-items: center;
-    margin-left:45%
+    margin-left:52%
 }
 
 .numReactions{
     margin-left:10px;
     font-size: 14px;
+}
+
+.numReactions:hover{
+    text-decoration:underline;
+    color:#378fe9;
+    cursor: pointer;
 }
 
 .infoReactionPost{
@@ -172,4 +181,17 @@
 
 .iconOptions:hover{
     background-color: #f3f2ef;
+    cursor: pointer;
+}
+
+.totalComments:hover{
+    text-decoration:underline;
+    color:#378fe9;
+    cursor: pointer;
+}
+
+.name:hover{
+    text-decoration:underline;
+    color:#378fe9;
+    cursor: pointer;
 }

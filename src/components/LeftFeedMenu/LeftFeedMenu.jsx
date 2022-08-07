@@ -4,12 +4,11 @@ import CardProfile from '../CardProfile/CardProfile';
 import CardDiscover from '../CardDiscover/CardDiscover';
 import CardPages from '../CardPages/CardPages';
 
-function LeftFeedCard() {
+function LeftFeedCard(props) {
 
     return (
         <div className="whiteL">
-            <CardProfile />
-            <CardPages />
+            <CardProfile user={props.user}/>
             <CardDiscover />
         </div>
     );

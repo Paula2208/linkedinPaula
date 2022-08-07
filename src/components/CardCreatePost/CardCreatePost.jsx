@@ -5,12 +5,14 @@ import {BsImage} from "react-icons/bs"
 import {RiVideoFill} from "react-icons/ri";
 import {BiNews} from "react-icons/bi"
 
-function CardCreatePost() {
+function CardCreatePost(props) {
+
+    const [user, setUser] = useState(props.user);
 
     return (
         <div className="cardCreatePost">
             <div className="gridInput">
-                <img src={'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png'}
+                <img src={user.avatar || 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png'}
                     className="round-avatar avatarCreatePost"></img>
                 <div className="startPosts">
                     Start a Post

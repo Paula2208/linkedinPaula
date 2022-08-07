@@ -1,8 +1,100 @@
 .cardConnections{
     background-color:white;
     border-radius: 5px;
-    border-radius: 5px;
     border-width: 1.5px;
     border-style: solid;
     border-color: #e3e3e0;
+    text-align: justify;
+}
+
+.iconInfoAddFeed{
+    display: inline-flex;
+    font-size:20px;
+    font-weight:500;
+    color: black;
+    margin-left: 10px;
+    margin-top: 15px;
+    align-items: center;
+    width: 100%;
+}
+
+.infoImage{
+    color:#666666;
+    margin-left:110px;
+}
+
+.infoRowRec{
+    color:#666666;
+    margin-left:10px;
+}
+
+.iconViewAllRec{
+    display: inline-flex;
+    font-size:16px;
+    margin-left: 30px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    align-items: center;
+    width: 100%;
+}
+
+.avatarRecomendation{
+    width:50px;
+    height:50px;
+    margin-left: 10px;
+}
+
+.recName{
+    color:black;
+    font-weight:500;
+    font-size:17px;
+}
+
+.recBio{
+    margin-top: 3px;
+    font-size:14px;
+    font-weight: 200;
+}
+
+.iconFollow{
+    display: inline-flex;
+    font-size:20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    border-width:1.5px;
+    width: 110px;
+    height: 35px;
+    border-style: solid;
+    border-color: #666666;
+    margin-top: 10px;
+}
+
+.plusRec{
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.cardRecomendation{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+}
+
+.div1-rec{
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2-rec{
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.iconFollow:hover{
+    cursor: pointer;
+    background-color: #f3f2ef;
+    padding: 1px;
+    border-width: 3px;
+    transition: padding 0.3s linear;
+    transition: border-width 0.3s linear;
 }

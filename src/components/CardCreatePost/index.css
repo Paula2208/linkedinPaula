@@ -31,6 +31,7 @@
 
 .startPosts:hover{
     background-color: #f3f2ef;
+    cursor: pointer;
 }
 
 .photo{
@@ -60,6 +61,7 @@
 
 .iconPost:hover{
     background-color: #f3f2ef;
+    cursor:pointer;
 }
 
 .iconPost span{

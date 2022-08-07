@@ -2,8 +2,41 @@
     background-color:white;
     margin-top: 10px;
     border-radius: 5px;
-    border-radius: 5px;
     border-width: 1.5px;
     border-style: solid;
     border-color: #e3e3e0;
+}
+
+.discover-text{
+    color:#378fe9;
+    font-size:14px;
+    font-weight: 500;
+    text-align: justify;
+    margin-left: 15px;
+    line-height:35px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.toHover:hover{
+    text-decoration: underline;
+}
+
+.iconDiscover{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+.imageGray{
+    color:#666666;
+    font-weight: 700;
+    font-size:22px;
+    margin-left:130px;
+}
+
+.discoverMore{
+    padding:15px;
+    font-size: 16px;
+    font-weight: 500;
 }

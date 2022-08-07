@@ -7,7 +7,7 @@
 .GridGeneralFeed{
     display: grid;
     grid-column-gap: 30px;
-    grid-template-columns: minmax(0,7fr) minmax(0,15.5fr) minmax(0,9fr);
+    grid-template-columns: minmax(0,6.5fr) minmax(0,15.5fr) minmax(0,9fr);
 }
 
 .gridGeneral1 {
