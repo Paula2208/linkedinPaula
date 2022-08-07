@@ -1,8 +1,79 @@
 .cardCreatePost{
     background-color:white;
     border-radius: 5px;
-    border-radius: 5px;
     border-width: 1.5px;
     border-style: solid;
     border-color: #e3e3e0;
+}
+
+.avatarCreatePost{
+    width:50px;
+    height:50px;
+}
+
+.gridInput{
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+.startPosts{
+    border-radius: 30px;
+    width: 420px;
+    margin-left:10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #666666;
+    text-align: justify;
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.startPosts:hover{
+    background-color: #f3f2ef;
+}
+
+.photo{
+    color:#378fe9;
+}
+
+.video{
+    color: #5f9b41;
+}
+
+.job{
+    color: #a872e8;
+}
+
+.article{
+    color: #e16745;
+}
+
+.iconPost{
+    display: inline-flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    height: 43px;
+    border-radius: 5px;
+}
+
+.iconPost:hover{
+    background-color: #f3f2ef;
+}
+
+.iconPost span{
+    font-size: 16px;
+    margin-left: 13px;
+}
+
+.gridOptions{
+    align-items: left;
+    align-content: left;
+    justify-content: left;
+
+    display: grid;
+    grid-template-columns: repeat(4, 125px);
+    margin-left: 14px;
+    margin-bottom: 5px;
 }

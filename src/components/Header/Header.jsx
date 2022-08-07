@@ -66,7 +66,7 @@ function Header() {
                     onClick={() => changeTab(1)}
                 >
                     <ImHome3 className="image"/>
-                    <span>Inicio</span>
+                    <span>Home</span>
                     {(tabActive === 1)&&(<div className="line"></div>)}
                 </div>
 
@@ -74,7 +74,7 @@ function Header() {
                     onClick={() => changeTab(2)}
                 >
                     <HiUsers className="image"/>
-                    <span>Mi Red</span>
+                    <span>My Network</span>
                     {(tabActive === 2)&&(<div className="line"></div>)}
                 </div>
 
@@ -82,7 +82,7 @@ function Header() {
                     onClick={() => changeTab(3)}
                 >
                     <IoBriefcase className="image"/>
-                    <span>Empleos</span>
+                    <span>Jobs</span>
                     {(tabActive === 3)&&(<div className="line"></div>)}
                 </div>
 
@@ -90,7 +90,7 @@ function Header() {
                     onClick={() => changeTab(4)}
                 >
                     <RiMessage2Fill className="image"/>
-                    <span>Mensajes</span>
+                    <span>Messaging</span>
                     {(tabActive === 4)&&(<div className="line"></div>)}
                 </div>
 
@@ -98,7 +98,7 @@ function Header() {
                     onClick={() => changeTab(5)}
                 >
                     <BsBellFill className="image"/>
-                    <span>Notificaciones</span>
+                    <span>Notifications</span>
                     {(tabActive === 5)&&(<div className="line"></div>)}
                 </div>
 
@@ -108,7 +108,7 @@ function Header() {
                     <img src={'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png'}
                          className="round-avatar avatar"></img>
                     <div className="arrow">
-                        <span>Yo</span>
+                        <span>Me</span>
                         <MdArrowDropDown className="image"/>
                     </div>
                 </div>
@@ -119,7 +119,7 @@ function Header() {
                     <div className="line-vertical"></div>
                     <CgMenuGridR className="image gridLine2"/>
                     <div className="arrow gridLine3">
-                        <span>Productos</span>
+                        <span>Work</span>
                         <MdArrowDropDown className="image"/>
                     </div>
                 </div>
@@ -128,7 +128,7 @@ function Header() {
                     onClick={() => setShowPublic(true)}
                 >
                     <BiBullseye className="image"/>
-                    <span>Publicidad</span>
+                    <span>Advertise</span>
                 </div>
 
             </div>

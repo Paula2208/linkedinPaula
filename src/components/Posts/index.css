@@ -2,7 +2,6 @@
     background-color:white;
     margin-top: 10px;
     border-radius: 5px;
-    border-radius: 5px;
     border-width: 1.5px;
     border-style: solid;
     border-color: #e3e3e0;
@@ -10,4 +9,167 @@
 
 .listPosts{
     display: inline-grid;
+}
+
+.gridInfoUserPost{
+    text-align: justify;
+    line-height: 15px;
+
+    display: grid;
+    grid-template-columns: 0.2fr 1.5fr 0.1fr;
+    grid-template-rows: 0.5fr;
+    margin-top: 10px;
+    padding-left: 8px;
+}
+
+.userRelation{
+    display:inline-flex;
+    font-size:15px;
+    align-items: center;
+    align-content: center;
+}
+
+.bio{
+    margin-top: 3px;
+    font-size:14px;
+}
+
+.name{
+    color:black;
+    font-weight:700;
+}
+
+.infoPost{
+    margin-left: 10px;
+}
+
+.timePost{
+    display:inline-flex;
+    font-size:14px;
+    align-items: center;
+    align-content: center;
+}
+
+.avatarPost{
+    width:50px;
+    height:50px;
+    margin-left: 10px;
+}
+
+.dots{
+    margin-right: 10px;
+}
+
+
+.text-content{
+    text-align: left;
+    line-height: 25px;
+    font-size: 18px;
+    color:black;
+    margin-left: 17px;
+    margin-right: 10px;
+    font-weight: 350;
+    margin-top: 10px;
+}
+
+.files{
+    margin-top: 10px;
+}
+
+.imageColorLike{
+    color:white;
+    background-color:#378fe9;
+    border-width: 6px;
+    border-radius:50%;
+    border-style: solid;
+    border-color:#378fe9;
+    
+    font-size: 10px;
+}
+
+.imageColorLove{
+    color:white;
+    background-color:#d96363;
+    border-width: 6px;
+    border-radius:50%;
+    border-style: solid;
+    border-color:#d96363;
+
+    font-size: 10px;
+}
+
+.imageColorHelp{
+    color:white;
+    background-color:#a872e8;
+    border-width: 6px;
+    border-radius:50%;
+    border-style: solid;
+    border-color:#a872e8;
+
+    font-size: 10px;
+}
+
+.reactions{
+    display:inline-flex;
+    text-align: justify;
+    align-items: center;
+}
+
+.infoReactions{
+    display:inline-flex;
+    font-size: 14px;
+    text-align: justify;
+    align-items: center;
+    margin-left:45%
+}
+
+.numReactions{
+    margin-left:10px;
+    font-size: 14px;
+}
+
+.infoReactionPost{
+    display:inline-flex;
+    width:500px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.activeOptions{
+    font-size: 20px;
+
+    align-items: left;
+    align-content: left;
+    justify-content: left;
+
+    display: grid;
+    grid-template-columns: repeat(4, 125px);
+    padding: 5px;
+    margin-left: 12px;
+}
+
+.separatorLinePost{
+    background-color:#f3f2ef;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top: 3px;
+    height:1px;
+}
+
+.iconOptions{
+    display: inline-flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.iconOptions span{
+    font-size: 16px;
+    margin-left: 13px;
+}
+
+.iconOptions:hover{
+    background-color: #f3f2ef;
 }

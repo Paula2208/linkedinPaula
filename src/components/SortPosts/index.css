@@ -1,4 +1,57 @@
 .sortPosts{
     background-color:transparent;
     margin-top: 5px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.line-sort{
+    background-color:#666666;
+    width:90%;
+    height: 1px;
+}
+
+.text-sort{
+    font-size:15px;
+    word-break: keep-all;
+    line-break: strict;
+    width: 80px;
+}
+
+.text-type{
+    font-size:15px;
+    word-break: keep-all;
+    line-break: strict;
+    color: black;
+    font-weight: 500;
+}
+
+.display-type{
+    display: inline-flex;
+}
+
+.changeTop{
+
+    justify-content: center;
+
+    border-radius: 5px;
+    width: 170px;
+    height: 85px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 1px 3px 5px #666666;
+    text-align: justify;
+}
+
+.changeText{
+    border-radius: 5px;
+    height: 50%;
+    margin-top: 3px;
+    font-size:16px;
+}
+
+.changeText:hover{
+    background-color:#f3f2ef;
 }
