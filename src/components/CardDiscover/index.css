@@ -20,6 +20,7 @@
 
 .toHover:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .iconDiscover{
@@ -39,4 +40,11 @@
     padding:15px;
     font-size: 16px;
     font-weight: 500;
+    width:100%
+}
+
+.discoverMore:hover{
+    background-color: #f3f2ef;
+    cursor: pointer;
+    
 }

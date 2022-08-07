@@ -124,6 +124,11 @@
     cursor: pointer;
 }
 
+.access-profile:hover{
+    background-color: #f3f2ef;
+    cursor: pointer;
+}
+
 .connections-profile span{
     font-size:14px;
     font-weight: 600;
@@ -152,6 +157,12 @@
 
 .justify{
     margin-right: 114px;
+}
+
+.toHoverProfile:hover{
+    background-color: #f3f2ef;
+    cursor: pointer;
+    width:100%
 }
 
 .access-profile span{

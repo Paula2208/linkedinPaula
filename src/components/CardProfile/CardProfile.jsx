@@ -54,11 +54,13 @@ function CardProfile(props) {
             </div>
 
             <div className="separatorLineProfile"></div>
-
-            <div className={`iconProfile justify`}>
-                <FaBookmark />
-                <div className="boldGeneral">My items</div>
+            <div className="toHoverProfile">
+                <div className={`iconProfile justify`}>
+                    <FaBookmark />
+                    <div className="boldGeneral">My items</div>
+                </div>
             </div>
+            
         </div>
     );
 }
