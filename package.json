@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "6.4.5",
+    "@craco/craco": "^7.0.0-alpha.0",
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "@fortawesome/free-regular-svg-icons": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
@@ -25,7 +25,7 @@
     "build": "env-cmd -e DEV craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "local" : "env-cmd -e LOCAL craco start",
+    "local": "env-cmd -e LOCAL craco start",
     "dev": "env-cmd -e DEV craco start"
   },
   "eslintConfig": {
