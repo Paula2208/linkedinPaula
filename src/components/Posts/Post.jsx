@@ -1,13 +1,15 @@
 import React, {useEffect, useState} from 'react';
 import './index.css'
 import {BsDot} from 'react-icons/bs'
-import {BiWorld, BiDotsHorizontalRounded, BiLike, BiMessageDetail} from 'react-icons/bi'
+import {BiWorld, BiLike, BiMessageDetail} from 'react-icons/bi'
 import {AiFillLike, AiFillHeart} from 'react-icons/ai';
-import {FaHandHoldingHeart} from 'react-icons/fa';
+import {FaHandHoldingHeart, FaTrashAlt} from 'react-icons/fa';
 import {TbArrowForwardUp} from 'react-icons/tb';
 import {RiSendPlaneFill} from 'react-icons/ri';
 
 function Post(props) {
+
+    
 
     return (
         <div className="post">
@@ -43,7 +45,7 @@ function Post(props) {
                     </div>
                 </div>
 
-                <BiDotsHorizontalRounded className="dots"/>
+                <FaTrashAlt className="dots" onClick={() => props.deletePost(props.post.post_id)}/>
             </div>
 
             <div>

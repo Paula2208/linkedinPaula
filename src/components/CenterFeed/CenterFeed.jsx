@@ -8,9 +8,9 @@ function CenterFeed(props) {
 
     return (
         <div className="whiteC">
-            <CardCreatePost user={props.user}/>
+            <CardCreatePost user={props.user} posts={props.posts} setPosts={props.setPosts}/>
             <SortPosts />
-            <ListPost />
+            <ListPost posts={props.posts} setPosts={props.setPosts}/>
         </div>
     );
 }
