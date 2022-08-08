@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^7.0.0-alpha.0",
     "babel-plugin-macros": "^3.1.0",
     "env-cmd": "^10.1.0",
     "react": "^18.2.0",
@@ -20,12 +19,12 @@
     "@testing-library/user-event": "^13.5.0"
   },
   "scripts": {
-    "start": "env-cmd -e DEV craco start",
-    "build": "env-cmd -e DEV craco build",
-    "test": "craco test",
+    "start": "env-cmd -e DEV react-scripts start",
+    "build": "env-cmd -e DEV react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "local": "env-cmd -e LOCAL craco start",
-    "dev": "env-cmd -e DEV craco start"
+    "local": "env-cmd -e LOCAL react-scripts start",
+    "dev": "env-cmd -e DEV react-scripts start"
   },
   "eslintConfig": {
     "extends": [
